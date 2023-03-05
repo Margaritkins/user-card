@@ -1,0 +1,100 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+.card{
+  display: inline-block;
+ min-width: 300px;
+ max-width: 500px;
+ width: 100%;
+ padding: 40px;
+ border: 1px solid gray;
+ text-align: center;
+ margin: 30px;
+
+
+}
+
+.card-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  object-fit: cover;
+
+}
+
+.card-heading{
+  font-size: 32px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #323232;
+
+
+}
+
+.sub-heading{
+
+  font-size: 24px;
+  margin-bottom: 20px;
+
+}
+
+.card-heading,
+.social-text{
+  font-family: sans-serif;
+  color: #323232;
+}
+
+
+.card-info{
+font-size: 18px;
+margin-bottom: 30px;
+}
+
+.card-sub-heading,
+.card-info{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #454545;
+}
+.social-container{
+  margin-bottom: 20px;
+
+}
+
+.social-icon-container{
+display: inline-block;
+width: 90px;
+
+}
+
+.social-icon-container + .social-icon-container{
+  margin-left: 70px;
+}
+
+.icon-wrapper{
+  height: 60px;
+  width: 60px;
+  margin: 0 auto;
+}
+.social-icon{
+  display: block;
+
+}
+
+.social-text{
+font-size: 40px;
+font-weight: bold;
+
+}
+
+.btn{
+width: 100%;
+background-color: purple;
+color: white;
+border: none;
+border-radius: 10px;
+padding: 16px 24px;
+
+}
+
